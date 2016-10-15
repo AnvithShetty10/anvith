@@ -51,13 +51,15 @@
                 display: flex;
                 position:fixed;
                 top: 55%;
-                left: 30%;
+                left: 35%;
                 z-index: 2000;
             }
               
               @media only screen and (max-width : 768px) {
              .canvas-content {
                 font-size: 1em;
+                 top: 65%;
+                left: 25%;
               }
             }
               
