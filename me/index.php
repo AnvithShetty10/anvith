@@ -5,7 +5,7 @@
 
 <head>
           <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+          <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
   <title>Babu</title>
 
@@ -19,9 +19,7 @@
                 font-family:arial;
                 color:#fff;
             }
-            h1{
-              margin: 0;
-            }
+
 
             a {
                 color:#0078ff;
@@ -39,19 +37,27 @@
                 position:relative;
 
             }
-            div.canvas-content{
-                /*position:relative;
-                z-index:2000;
-                color:#fff;
-           	    text-align:center;
-                padding-top:30px;*/
+            .canvas-content{
+
                 height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  top: 370px;
-  left: 500px;
-  z-index: 2000;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                position:fixed;
+                top: 55%;
+                 left: 35%;
+                 z-index: 2000;
+            }
+
+            @media only screen and (max-width : 768px) {
+             .canvas-content {
+               font-size: 1em;
+                  top: 65%;
+                 left: 5%;
+                 text-align: center;
+
+              }
             }
         </style>
 
@@ -60,10 +66,13 @@
 <body>
 
 <section class="canvas-wrap">
-            <div class="canvas-content">
-        <h1>Happy Anniversary Babu!! :)</h1>
-    </div>f
-            <div id="canvas" class="gradient"></div>
+  <audio autoplay>
+  <source src="audio/song.mp3" type="audio/mpeg">
+</audio>
+  <div id="canvas" class="gradient"></div>
+
+        <h1 class="canvas-content" style="font-size:2em;">Happy Anniversary Babu!! :)</h1>f
+
 
 
         </section>
