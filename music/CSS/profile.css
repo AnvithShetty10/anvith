@@ -1,0 +1,178 @@
+.sidepro {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidepro a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidepro a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidepro .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidepro {padding-top: 15px;}
+  .sidepro a {font-size: 18px;}
+}
+
+.container p{
+font-size: 0.75em;
+}
+
+.size {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+#pro{
+  position: absolute;
+  display: inline-block;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.round {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
+    letter-spacing: -.065em;
+    font-family: "Hammersmith One", sans-serif;
+    -webkit-transition: all .25s ease-in-out;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+    border-radius: 300px;
+    z-index: 1;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.round:hover {
+    width: 130%;
+    height: 130%;
+    left: -15%;
+    top: -15%;
+    font-size: 3px;
+    padding-top: 38px;
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    z-index: 2;
+    border-size: 10px;
+    -webkit-transform: rotate(-360deg);
+}
+
+a.red {
+    background-color: rgba(239, 57, 50, 1);
+    color: rgba(133, 32, 28, 1);
+    border-color: rgba(133, 32, 28, .2);
+}
+
+a.red:hover {
+    color: rgba(239, 57, 50, 1);
+}
+
+.round span.round {
+    display: block;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    font-size: 1px;
+    border: none;
+    padding: 40% 20% 0 20%;
+    color: #fff;
+}
+
+.round span:hover {
+    opacity: .85;
+    font-size: 26px;
+    -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+.red span {
+    background: rgba(133, 32, 28, .7);
+}
+
+
+.card {
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 5px;
+    z-index: 4;
+    padding: 8px 8px 8px 8px;
+    background-color: white;
+
+}
+
+#holder{
+  padding: 8px 8px 8px 32px;
+
+}
+#profile {
+    border-radius: 100px 100px 100px 100px;
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url('Philosopher-BoldItalic.ttf');
+}
+.container {
+  padding: 8px 8px 8px 10px;
+  display: block;
+  font-family: myFont2;
+
+}
+
+.card #edit{
+  margin-left:80%;
+}
+
+.close1 {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  color:white;
+  font-size: 1.5em;
+}
+
+.close1:hover {
+  color: white;
+  cursor: pointer;
+}

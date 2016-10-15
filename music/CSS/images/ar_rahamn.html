@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="home.css"/>
+      <link rel="stylesheet" type="text/css" href="album.css">
+        <link rel="stylesheet" type="text/css" href="artist.css">
+      <link rel="stylesheet" type="text/css" href="select_lang.css"/>
+      <link rel="stylesheet" type="text/css" href="search.css"/>
+      <link rel="stylesheet" type="text/css" href="side.css"/>
+      <script type="text/javascript" src="search.js">
+
+      </script>
+      <script type="text/javascript" src="side.js"></script>
+        <title>Symphony</title>
+
+  </head>
+  <body>
+    <a href="home.html"><div id="title"><img src="logo5.png" height="150" style="-webkit-transform:rotate(8deg);margin-left:4%" />
+    <p id="pos" style="font-family:myFont;color:white;font-size:75px;position:absolute">ymphony</p></div></a>
+
+    <div class="search" id="possearch">
+    <form class="search_box cf">
+    <input type="text" name="search" id="myText" placeholder="Search here..." required>
+    <button type="button" onclick="javascript:RedirectToSecondPage()">Search</button>
+    </form>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+    <ul id="tabs">
+      <a href="home.html"><li>Home</li></a>
+      <a href="album.html"><li>Albums </li></a>
+      <a href="artists.html"><li>Artists</li></a>
+      <a href="concert.html"><li >Concerts</li></a>
+      <a href="topcharts.html"><li>Top Charts</li></a>
+    </ul>
+  </div>
+  <div id="main">
+    <span style="cursor:pointer" onclick="navcontrol()">
+      <div class="container" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+   </div>
+  </span>
+  <div>
+    <div id="posphoto">
+    <div id="blur1"></div>
+  <div id="artcover"><img src="artists/ar_rahaman.jpg"  class="imgsize1" hspace="30" ></div>
+  <h4>A R Rahman</h4>
+  </div>
+  <ol id="posallist" class="pos" >
+    <a href="Songs/Jungle Raja.mp3"><li><span>Tu Hai</span></li></a>
+    <a href="Songs/Chennai Bass.mp3"><li><span>Mohenja Daro</span></li></a>
+    <a href="Songs/Heer.mp3">  <li><span>Tum Saath Ho</span></li></a>
+    <a href="Songs/Mumbai Dance.mp3">  <li><span>Matargashti</span></li></a>
+    <a href="Songs/Bass Rani.mp3"><li><span>Sarsariya</span></li></a>
+  </ol>
+  </div>
+</div>
+</body>
+</html>

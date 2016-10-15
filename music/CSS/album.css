@@ -1,0 +1,81 @@
+.imgsize{
+height:160px;
+width:150px;
+}
+
+body{
+  background-image: url("images/site_background2t.jpg");
+}
+
+
+#posallist li span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+#posallist li:hover{
+  list-style-image: url('images/play1.png');
+
+}
+
+#posallist li:hover span {
+  padding-right: 25px;
+}
+
+
+@font-face {
+   font-family:myFont1;
+   src: url('Graviola-Regular.otf');
+}
+
+@font-face {
+   font-family:myFont2;
+   src: url('Philosopher-BoldItalic.ttf');
+}
+
+#posallist{
+  margin-left: 25%;
+  font-family:myFont2;
+  font-size:2em;
+
+}
+
+#poscoveral{
+margin-left:20%;
+margin-top: 0%;
+border: solid white 3px;
+height: 180px;
+width:60%;
+
+}
+
+
+#albcover{
+  position: absolute;
+  top: 30%;
+  -webkit-filter:blur(0px);
+
+}
+
+.test1{
+  display: inline;
+  float:left;
+}
+#poscover{
+margin-left:10%;
+margin-top: 3%;
+}
+
+#posname{
+  position: absolute;
+  top:52%;
+  left:28%;
+}
+
+#poscover img:hover{
+  transform:scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}

@@ -1,0 +1,96 @@
+#title{
+  position: relative;
+}
+
+#pos{
+  margin-left:8.5%;
+  margin-right:auto;
+  display:block;
+  margin-top:-8%;
+  margin-bottom:0%
+}
+
+body {
+    background-image: url("images/site_background2t.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+@font-face {
+   font-family:myFont;
+   src: url('Fuller Brush NF Regular.otf');
+}
+@font-face {
+   font-family:myFont1;
+   src: url('Graviola-Regular.otf');
+}
+
+@font-face {
+   font-family:myFont2;
+   src: url('Philosopher-BoldItalic.ttf');
+}
+
+ #tabs li{
+  list-style-type: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family:myFont2;
+  margin: 3px;
+  padding: 14px;
+  width: 175px;
+  height: 45px;
+  text-align:center;
+  font-size: 2em;
+  background-color:orange ;
+  color:black;
+}
+
+#tabs li:hover{
+  background-color: #00E676;
+  color:white;
+  width:180px;
+   transition: all 0.5s;
+}
+
+a:link{
+  text-decoration: none;
+}
+a{
+  color:black;
+}
+
+#latest{
+  margin-left: 10%;
+  margin-top: -6%;
+  width: 80%;
+}
+
+#fav{
+  margin-left: 10%;
+  margin-top: 0%;
+  width: 80%;
+}
+
+#trend{
+  margin-left: 10%;
+  margin-top: 0%;
+  width: 80%;
+}
+
+#possearch{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -10%;
+}
+
+footer img:hover{
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.2);
+}
+
+@-webkit-keyframes moveSlideshow {
+    0% { left: 0; }
+    100% { left: -1684px; }
+}

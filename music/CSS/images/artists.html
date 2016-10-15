@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" type="text/css" href="home.css"/>
+<link rel="stylesheet" type="text/css" href="select_lang.css"/>
+<link rel="stylesheet" type="text/css" href="artist.css"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<link rel="stylesheet" type="text/css" href="side.css"/>
+<script type="text/javascript" src="search.js"></script>
+<script type="text/javascript" src="side.js"></script>
+    <title>Symphony</title>
+    <style>
+    #dropdown {
+        margin-left:80%;
+        margin-top:-10%;
+        position: absolute;
+    }
+    </style>
+  </head>
+  <body>
+  <a href="home.html"><div id="title"><img src="logo5.png" height="150" style="-webkit-transform:rotate(8deg);margin-left:4%" />
+  <p id="pos" style="font-family:myFont;color:white;font-size:75px;position:absolute">ymphony</p></div></a>
+
+  <div class="search" id="possearch">
+  <form class="search_box cf">
+  <input type="text" name="search" id="myText" placeholder="Search here..." required>
+  <button type="button" onclick="javascript:RedirectToSecondPage()">Search</button>
+  </form>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <ul id="tabs">
+      <a href="home.html"><li>Home</li></a>
+      <a href="album.html"><li>Albums </li></a>
+      <a href="artists.html"><li>Artists</li></a>
+      <a href="concert.html"><li >Concerts</li></a>
+      <a href="topcharts.html"><li>Top Charts</li></a>
+    </ul>
+  </div>
+  <div id="main">
+  <span style="cursor:pointer" onclick="navcontrol()">
+    <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </div>
+  </span>
+
+
+  <div id="dropdown">
+    <button class="dropbtn">Select Language</button>
+    <div class="dropdown-content">
+      <a href="#">English</a>
+      <a href="#">Hindi</a>
+      <a href="#">Kannada</a>
+    </div>
+  </div>
+
+
+  <ul id="list1">
+    <a href="ar_rahamn.html"><li>A R Rahman</li><br></a>
+    <li>Arjit Singh</li><br>
+    <li>Shreya Ghoshal</li><br>
+    <li>Yo Yo Honey Singh</li><br>
+    <li>Armaan Malik</li><br>
+    <a href="ar_rahamn.html"><li>A R Rahman</li><br></a>
+    <li>Arjit Singh</li><br>
+    <li>Shreya Ghoshal</li><br>
+    <li>Yo Yo Honey Singh</li><br>
+    <li>Armaan Malik</li><br>
+    <a href="ar_rahamn.html"><li>A R Rahman</li><br></a>
+    <li>Arjit Singh</li><br>
+    <li>Shreya Ghoshal</li><br>
+    <li>Yo Yo Honey Singh</li><br>
+    <li>Armaan Malik</li><br>
+
+  </ul>
+
+  <ul id="list2">
+    <li>A R Rahman1</li><br>
+    <li>Arjit Singh1</li><br>
+    <li>Shreya Ghoshal1</li><br>
+    <li>Yo Yo Honey Singh1</li><br>
+    <li>Armaan Malik1</li><br>
+    <a href="ar_rahamn.html"><li>A R Rahman</li><br></a>
+    <li>Arjit Singh</li><br>
+    <li>Shreya Ghoshal</li><br>
+    <li>Yo Yo Honey Singh</li><br>
+    <li>Armaan Malik</li><br>
+    <a href="ar_rahamn.html"><li>A R Rahman</li><br></a>
+    <li>Arjit Singh</li><br>
+    <li>Shreya Ghoshal</li><br>
+    <li>Yo Yo Honey Singh</li><br>
+    <li>Armaan Malik</li><br>
+
+
+  </ul>
+</div>
+  </body>
+</html>

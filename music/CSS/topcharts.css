@@ -1,0 +1,104 @@
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 15%;
+
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    font-size: 1.5em;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 5px;
+    border-color:#4CAF50;
+}
+
+h4{
+  font-family:myFont2;
+  font-size:3em;
+  color:brown;
+  margin-left:20%;
+  margin-top: -13%;
+  -webkit-filter:blur(0px);
+  position: absolute;
+
+}
+
+#posallist2{
+  margin-left: 25%;
+  font-family:myFont2;
+  font-size:2em;
+
+}
+
+#posallist2 li span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+#posallist2 li:hover{
+  list-style-image: url('images/play1.png');
+
+}
+
+#posallist2 li:hover span {
+  padding-right: 25px;
+}
+
+#poscoveral2{
+margin-left:15%;
+margin-top: 5%;
+border: solid white 3px;
+height: 180px;
+width:60%;
+
+}
+
+#albcover2{
+  position: absolute;
+  top: 43%;
+  -webkit-filter:blur(0px);
+
+}
+
+.imgsize2{
+height:20%;
+width:20%;
+}
+
+#posallist3{
+  margin-left: 25%;
+  font-family:myFont2;
+  font-size:2em;
+
+}
