@@ -5,7 +5,7 @@
 
 <head>
           <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    a
 
   <title>Babu</title>
 
@@ -24,6 +24,7 @@
             a {
                 color:#0078ff;
             }
+              
             #canvas{
                 width:100%;
                 height: 750px;
@@ -47,17 +48,12 @@
                 width: 100%;
                 display: flex;
                   position:fixed;
-                top: 60%;
-                left: 35%;
+               top: 55%;
+                left: 25%;
                 z-index: 2000;
             }
               
-              @media only screen and (max-width : 768px) {
-             .canvas-content {
-                font-size: 1em;
-                width:100%;
-              }
-            }
+             
         </style>
 
 </head>
