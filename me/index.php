@@ -59,7 +59,7 @@
              .canvas-content {
                 font-size: 1em;
                  top: 65%;
-                left: 25%;
+                left: 22%;
               }
             }
               
@@ -69,7 +69,9 @@
 </head>
 
 <body>
-
+<audio autoplay>
+  <source src="audio/song.mp3" type="audio/mpeg">
+</audio>
 <section class="canvas-wrap">
           <div id="canvas" class="gradient"></div>  
         <h1 class="canvas-content" style="font-size:2em;">Happy Anniversary Babu!! :)</h1>f
