@@ -70,7 +70,7 @@
 
 <body>
 <audio autoplay>
-  <source src="audio/song.mp3" type="audio/mpeg">
+  <source src="song.mp3" type="audio/mpeg">
 </audio>
 <section class="canvas-wrap">
           <div id="canvas" class="gradient"></div>  
