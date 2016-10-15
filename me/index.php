@@ -55,6 +55,7 @@
               @media only screen and (max-width : 768px) {
              .canvas-content {
                 font-size: 1em;
+                width:100%;
               }
             }
         </style>
