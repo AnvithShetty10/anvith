@@ -39,11 +39,11 @@
                 position:relative;
 
             }
-            div.canvas-content{
+            .canvas-content{
                 /*position:relative;
                 z-index:2000;
                 color:#fff;
-           	    text-align:center;
+                text-align:center;
                 padding-top:30px;*/
                 height: 100%;
                 width: 100%;
@@ -60,10 +60,9 @@
 <body>
 
 <section class="canvas-wrap">
-            <div class="canvas-content">
-        <h1>Happy Anniversary Babu!! :)</h1>
-    </div>f
-            <div id="canvas" class="gradient"></div>
+          <div id="canvas" class="gradient"></div>  
+        <h1 class="canvas-content">Happy Anniversary Babu!! :)</h1>f
+           
 
 
         </section>
