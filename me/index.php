@@ -65,7 +65,7 @@
 
 <section class="canvas-wrap">
           <div id="canvas" class="gradient"></div>  
-        <h1 class="canvas-content">Happy Anniversary Babu!! :)</h1>f
+        <h1 class="canvas-content" style="font-size:2em;">Happy Anniversary Babu!! :)</h1>f
            
 
 
