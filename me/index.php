@@ -59,7 +59,8 @@
              .canvas-content {
                 font-size: 1em;
                  top: 65%;
-                left: 22%;
+                left: 20%;
+                text-align:center;
               }
             }
               
