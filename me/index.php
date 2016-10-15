@@ -19,9 +19,7 @@
                 font-family:arial;
                 color:#fff;
             }
-            h1{
-              margin: 0;
-            }
+          
 
             a {
                 color:#0078ff;
@@ -48,10 +46,16 @@
                 height: 100%;
                 width: 100%;
                 display: flex;
-                position: absolute;
-                top: 70%;
-                left: 40%;
+                  position:fixed;
+                top: 60%;
+                left: 35%;
                 z-index: 2000;
+            }
+              
+              @media only screen and (max-width : 768px) {
+             .canvas-content {
+                font-size: 1em;
+              }
             }
         </style>
 
