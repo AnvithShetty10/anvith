@@ -46,12 +46,12 @@
            	    text-align:center;
                 padding-top:30px;*/
                 height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  top: 370px;
-  left: 500px;
-  z-index: 2000;
+                width: 100%;
+                display: flex;
+                position: fixed;
+                top: 70%;
+                left: 40%;
+                z-index: 2000;
             }
         </style>
 
