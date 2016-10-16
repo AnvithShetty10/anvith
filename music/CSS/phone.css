@@ -13,7 +13,11 @@
 
   #phoneback{
     display: block;
-     width:100%;
+    height: 100vh;
+    width: 100%;
+    background-image: url('Snapshots/Cheer-Up.jpg');
+    background-size:cover;
+    background-attachment: fixed;
   
   }
   .header h3{
