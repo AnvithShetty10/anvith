@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width,user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
 <link rel="icon" type="image/png" href="css/images/icons/logo5.png" sizes="32x32">
 <link rel="icon" type="image/png" href="css/images/icons/logo5.png" sizes="16x16">
@@ -11,6 +11,8 @@
     <title>Symphony</title>
     <link rel="stylesheet" type="text/css" href="CSS/landing.css" />
     <link rel="stylesheet" type="text/css" href="CSS/select_lang.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/phone.css" />
+
     <script src="jquery.js"></script>
     <style media="screen">
         body {
@@ -19,7 +21,7 @@
             margin: 0;
         }
 
-      
+
 
     </style>
 </head>
@@ -135,6 +137,7 @@
           <source src="back_video/MP4/Cheer-Up.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
           <source src="back_video/WEBM/Cheer-Up.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     </video>
+                    <div id="phoneback"><img src="CSS/Snapshots/Cheer-Up.jpg" alt="phone_background" /></div>
                     <div id="name"><div id="logo"><img id="spins" onclick="spin()" src="images/logo5.png"  ></div><br><br><br>
                     <p>Symphony</p>
                   </div>
@@ -189,26 +192,26 @@
 
         <div class="meet">
             <br><br><br><br>
-            <center><img src="images/team.png" style="height:7em;width=7em;"></center>
+            <center><img src="images/team.png"></center>
             <center>
-                <p style="font-size:3em;"> Meet the Team</p>
+                <p> Meet the Team</p>
             </center>
             <br><br><br>
             <div id="mem1">
-                <img src="images/aditya.jpg" style="height:15em;width:12em;border-radius: 1em;">
-                <figcaption style="font-size:1.25em;"><br>Aditya D Ramani</figcaption>
+                <img id="aditya" src="images/aditya.jpg" >
+                <figcaption id="aditya_name"><br>Aditya D Ramani</figcaption>
             </div>
             <div id="mem2">
-                <img src="images/akshay.jpg" style="height:15em;width:12em;border-radius: 1em;">
-                <figcaption style="font-size:1.25em;"><br>Akshaykanth D L</figcaption>
+                <img id="akshay" src="images/akshay.jpg">
+                <figcaption id="akshay_name"><br>Akshaykanth D L</figcaption>
             </div>
             <div id="mem3">
-                <img src="images/anvith.jpg" style="height:15em;width:12em;border-radius: 1em;">
-                <figcaption style="font-size:1.25em;"><br>Anvith S Shetty</figcaption>
+                <img id="anvith" src="images/anvith.jpg">
+                <figcaption id="anvith_name"><br>Anvith S Shetty</figcaption>
             </div>
             <div id="mem4">
-                <img src="images/aditya.jpg" style="height:15em;width:12em;border-radius: 1em;">
-                <figcaption style="font-size:1.25em;"><br>Abhishek Dwivedi</figcaption>
+                <img id="abhi" src="images/abhi.jpg">
+                <figcaption id="abhi_name"><br>Abhishek Dwivedi</figcaption>
             </div>
 
         </div>
