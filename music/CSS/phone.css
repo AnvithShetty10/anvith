@@ -1,0 +1,165 @@
+@media only screen and (max-width : 768px) {
+   body,.wrapper,.container-back,.static,.content1,.content2,.content3,.content4, .header{
+    max-width: 100%;
+  }
+
+  .header,.static{
+    height: 10%;
+  }
+
+  .fillWidth{
+    display: none;
+  }
+
+  #phoneback{
+    display: block;
+    width: 100%;
+  }
+  .header h3{
+    font-size: 1.5em;
+    margin-top:-13%;
+    margin-left:2%;
+  }
+
+  #name p{
+    font-size: 7em;
+    margin-top: 60%;
+    margin-left: 20%;
+  }
+
+#spins{
+  position: absolute;
+  width: 20%;
+  height: 22%;
+  margin-top: 40%;
+  margin-left: 40%;
+}
+  .content1{
+    height: 10em;
+    border: 0;
+    padding: 0;
+  }
+  .content1 p{
+    font-size: 120%;
+  }
+
+  .content2{
+    height: 8em;
+  }
+
+  .content3{
+    height: 10em;
+  }
+
+  .content3 p{
+    font-size: 0.75em;
+  }
+
+  .content4{
+    height: 13em;
+  }
+  #fea1,#fea2,#fea3,#fea4  p{
+    font-size:0.5em;
+    text-align:center;
+  }
+
+
+    #fea1 {
+        top: 20%;
+        left: 10%;
+        width: 15%;
+        height: 60%;
+    }
+
+    #fea2 {
+        top: -40%;
+        left: 30%;
+        width: 15%;
+        height: 60%;
+    }
+
+
+    #fea3 {
+        top: -100%;
+        left: 50%;
+        width: 15%;
+        height: 60%;
+    }
+
+
+    #fea4 {
+        top: -160%;
+        left: 70%;
+        width: 15%;
+        height: 60%;
+    }
+
+    .content4 img{
+      height: 2em;
+      width: 2em;
+    }
+    #credit{
+      font-size: 1.5em;
+    }
+
+    #credit_content{
+      font-size: 0.95em;
+    }
+
+    .meet{
+      height: 15em;
+    }
+
+    .meet img{
+      height:1.5em;
+      width:1.5em;
+      top:2%;
+      position: absolute;
+    }
+
+    .meet p{
+      position: absolute;
+      top:10%;
+      left:40%;
+      font-size:0.75em;
+    }
+
+    #aditya,#akshay,#anvith,#abhi{
+      height:6em;
+      width:3em;
+      border-radius: 20em;
+    }
+
+    #mem1 {
+
+      margin-top: -20%;
+    }
+
+    #mem2 {
+      margin-top: -20%;
+
+    }
+
+    #mem3 {
+      margin-top: -20%;
+    }
+
+    #mem4 {
+      margin-top: -20%;
+    }
+
+#aditya_name,#akshay_name,#anvith_name,#abhi_name{
+  display: none;
+}
+
+footer h2{
+  font-size: 1em;
+}
+
+.copy{
+  font-size:0.5em; 
+}
+  .header ul,.size{
+    display: none;
+          }
+}

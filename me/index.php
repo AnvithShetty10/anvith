@@ -5,7 +5,11 @@
 
 <head>
           <meta charset="utf-8">
+<<<<<<< HEAD
           <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+=======
+   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+>>>>>>> f8d628858432b6a0000b856b657ecaabc2dfd8e8
 
   <title>Babu</title>
 
@@ -19,11 +23,16 @@
                 font-family:arial;
                 color:#fff;
             }
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> f8d628858432b6a0000b856b657ecaabc2dfd8e8
 
             a {
                 color:#0078ff;
             }
+              
             #canvas{
                 width:100%;
                 height: 750px;
@@ -38,7 +47,15 @@
 
             }
             .canvas-content{
+<<<<<<< HEAD
 
+=======
+                /*position:relative;
+                z-index:2000;
+                color:#fff;
+                text-align:center;
+                padding-top:30px;*/
+>>>>>>> f8d628858432b6a0000b856b657ecaabc2dfd8e8
                 height: 100%;
                 width: 100%;
                 padding: 0;
@@ -46,6 +63,7 @@
                 display: flex;
                 position:fixed;
                 top: 55%;
+<<<<<<< HEAD
                  left: 35%;
                  z-index: 2000;
             }
@@ -57,15 +75,32 @@
                  left: 5%;
                  text-align: center;
 
+=======
+                left: 35%;
+                z-index: 2000;
+            }
+              
+              @media only screen and (max-width : 768px) {
+             .canvas-content {
+                font-size: 1em;
+                 top: 65%;
+                left: 5%;
+                text-align:center;
+>>>>>>> f8d628858432b6a0000b856b657ecaabc2dfd8e8
               }
             }
+              
+             
         </style>
 
 </head>
 
 <body>
-
+<audio autoplay>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
 <section class="canvas-wrap">
+<<<<<<< HEAD
   <audio autoplay>
   <source src="audio/song.mp3" type="audio/mpeg">
 </audio>
@@ -73,6 +108,11 @@
 
         <h1 class="canvas-content" style="font-size:2em;">Happy Anniversary Babu!! :)</h1>f
 
+=======
+          <div id="canvas" class="gradient"></div>  
+        <h1 class="canvas-content" style="font-size:2em;">Happy Anniversary Babu!! :)</h1>f
+           
+>>>>>>> f8d628858432b6a0000b856b657ecaabc2dfd8e8
 
 
         </section>
