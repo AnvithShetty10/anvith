@@ -28,12 +28,14 @@ function display(albums){
     caption= document.createElement("figcaption")
     a.setAttribute("href", "specificAlbum.php?name="+albums[i]["Album"]);
     index = albums[i]["artPath"].indexOf("res");
-    path = albums[i]["artPath"].substr(index, albums[i]["artPath"].length);
+    path= "../";
+    path = path+albums[i]["artPath"].substr(index, albums[i]["artPath"].length);
 
 
     img.setAttribute("src",path);
     //set image src as album art
     caption.setAttribute("align","center")
+    caption.style.color="white";
     caption.style.marginTop="10px"
     div.style.display ="inline-block";
     div.style.marginRight ="25px";

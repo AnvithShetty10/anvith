@@ -3,7 +3,7 @@
 body {font-family: myFont1;}
 @font-face {
    font-family:myFont1;
-   src: url('Graviola-Regular.otf');
+   src: url('../media/fonts/Graviola-Regular.otf');
 }
 
 /* Slideshow container */
@@ -18,14 +18,14 @@ body {font-family: myFont1;}
   height: 13px;
   width: 13px;
   margin: 0 2px;
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: Grey;
+  background-color: yellow;
 }
 
 /* Fading animation */

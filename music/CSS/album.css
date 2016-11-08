@@ -3,21 +3,21 @@ height:160px;
 width:150px;
 }
 
-body{
-  background-image: url("images/site_background2t.jpg");
+#posallist li{
+  color: white;
 }
-
 
 #posallist li span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+
 }
 
 
 #posallist li:hover{
-  list-style-image: url('images/play1.png');
+  list-style-image: url('../media/images/play1.png');
 
 }
 
@@ -28,12 +28,12 @@ body{
 
 @font-face {
    font-family:myFont1;
-   src: url('Graviola-Regular.otf');
+   src: url('../media/fonts/Graviola-Regular.otf');
 }
 
 @font-face {
    font-family:myFont2;
-   src: url('Philosopher-BoldItalic.ttf');
+   src: url('../media/fonts/Philosopher-BoldItalic.ttf');
 }
 
 #posallist{

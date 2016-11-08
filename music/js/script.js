@@ -23,7 +23,6 @@ $(document).ready(function(){
 function playsong(ref){
 $("#jquery_jplayer_1").jPlayer("destroy");
 link=ref.getAttribute("href");
-
 var player = $("#jquery_jplayer_1");
 
        player.jPlayer({
@@ -31,6 +30,24 @@ var player = $("#jquery_jplayer_1");
          $(this).jPlayer("setMedia", {
            mp3: link,
            title:ref.innerHTML,
+
+         });
+       }
+     });
+
+
+}
+
+function playsongsearch(ref){
+$("#jquery_jplayer_1").jPlayer("destroy");
+link=ref.getAttribute("href");
+var player = $("#jquery_jplayer_1");
+
+       player.jPlayer({
+       ready: function () {
+         $(this).jPlayer("setMedia", {
+           mp3: link,
+           title:"-",
 
          });
        }

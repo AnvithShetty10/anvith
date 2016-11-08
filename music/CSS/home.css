@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("images/site_background2t.jpg");
+    background-image: url('../media/images/back-final.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -19,16 +19,16 @@ body {
 
 @font-face {
    font-family:myFont;
-   src: url('Fuller Brush NF Regular.otf');
+   src: url('../media/fonts/Fuller Brush NF Regular.otf');
 }
 @font-face {
    font-family:myFont1;
-   src: url('Graviola-Regular.otf');
+   src: url('../media/fonts/Graviola-Regular.otf');
 }
 
 @font-face {
    font-family:myFont2;
-   src: url('Philosopher-BoldItalic.ttf');
+   src: url('../media/fonts/Philosopher-BoldItalic.ttf');
 }
 
  #tabs li{
@@ -84,7 +84,9 @@ a{
   margin-left: 30%;
   margin-top: -10%;
 }
-
+footer{
+  color: white;
+}
 footer img:hover{
   transition: transform 0.5s ease-in-out;
   transform: scale(1.2);

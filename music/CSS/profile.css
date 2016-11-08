@@ -150,7 +150,7 @@ a.red:hover {
 
 @font-face {
     font-family: myFont2;
-    src: url('Philosopher-BoldItalic.ttf');
+    src: url('../media/fonts/Philosopher-BoldItalic.ttf');
 }
 .container {
   padding: 8px 8px 8px 10px;

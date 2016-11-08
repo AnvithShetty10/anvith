@@ -12,13 +12,15 @@ button.accordion {
     font-family: myFont2;
 }
 
+@font-face {
+   font-family:myFont2;
+   src: url('../media/fonts/Philosopher-BoldItalic.ttf');
+}
+
 body{
   font-family: myFont2;
 }
-@font-face {
-   font-family:myFont2;
-   src: url('Philosopher-BoldItalic.ttf');
-}
+
 
 .acc{
 margin-left: 20%;

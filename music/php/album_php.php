@@ -2,13 +2,13 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbName = "form_details";
+$dbName = "music";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password , $dbName);
 
 // Check connection
-$sql = "SELECT * from english_musics GROUP BY Album";
+$sql = "SELECT * from songs GROUP BY Album";
 $result = $conn->query($sql);
 $album_names = array();
 if ($result->num_rows > 0) {
